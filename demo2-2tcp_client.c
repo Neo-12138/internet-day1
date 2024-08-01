@@ -9,8 +9,7 @@
 
 int tcp_fd;
 
-void *
-func(void *arg)
+void *func(void *arg)
 {
 	// 通信
 	char buf[1024] = {0};
